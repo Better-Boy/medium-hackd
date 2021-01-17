@@ -1,28 +1,19 @@
-# Medium Hackd
+Modified Medium-Hackd
 
+This is a slightly modified repo of the original repo - https://github.com/MahirJhaveri/medium-hackd
 
-### Presenting to you, a *seamless* new way to read premium Medium.com articles for ~~$5.00/month~~ <ins>absolutely free</ins>.
+The chrome extension - https://radiant-brushlands-42787.herokuapp.com/ collects IP address and other relevant data to perform analytics on the users or may be sell that data to companies. Hence, in order to avoid that I removed the scripts where the data is sent to storage engines.
 
-### Hassle free reading
-
-Our Chrome extension, overlays any premium Medium.com article with the opened version, so that you can read it for absolutely free without any hassle of clearing cookies or opening an Icognito window.
-
-
-### A personal touch
-
-Our extension is designed in a way that facilitates Medium.com to learn your interests and tastes with every click, so that you read  only what you like. This is not possible with other approaches such as deleting cookies or using an Icognito window.
-
-## Installation
-
-As of now, the extension is only available for Chrome, and can be downloaded [here](https://chrome.google.com/webstore/detail/medium-hackd/fjjfjlecfadomdpeohehfhnbekekdild).
-
-
-> 👉 Note: The beta version of the extension can also be downloaded from this repository, by following the next steps. It may not be the same as the version on store and may have potential bugs.
-
-For the repository version (Beta):
-
-1.  Go to more tools using the hamburger button on chrome
-2.  Go into extensions and turn on developer mode.
-3.  On the upper left click on load unpacked and select the folder extension
-4.  Once loaded you will see the extension on the page.
-5.  Head on to the medium article and click on the extension to read your article.
+To Run this application:
+1. Clone this repository
+    `git clone https://github.com/Better-Boy/medium-hackd`
+1. Go to more tools using the hamburger button on chrome
+1. Go into extensions and turn on developer mode
+1. On the upper left click on load unpacked and select the folder extension
+1. Once loaded you will see the extension on the page
+1. Go to the `app` directory
+1. Run `pip install requirements.txt`
+1. Run `nohup nohup python server.py &`
+1. Go to any medium article where it asks for subscription
+1. Click on the Extension
+1. The artcle gets unlocked!!!
