@@ -13,7 +13,7 @@ To Run this application:
 1. Once loaded you will see the extension on the page
 1. Go to the `app` directory
 1. Run `pip install requirements.txt`
-1. Run `nohup nohup python server.py &`
+1. Run `nohup python server.py &`
 1. Go to any medium article where it asks for subscription
 1. Click on the Extension
 1. The article gets unlocked!!!
